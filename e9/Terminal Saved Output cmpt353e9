@@ -1,0 +1,50 @@
+Last login: Thu Nov 12 08:59:25 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) d142-058-062-136:~ arpitgrewal$ export PYSPARK_PYTHON=python3
+(base) d142-058-062-136:~ arpitgrewal$ export PATH=${PATH}:/home/you/spark-3.0.0-bin-hadoop2.7/bin
+(base) d142-058-062-136:~ arpitgrewal$ pyspark
+-bash: pyspark: command not found
+(base) d142-058-062-136:~ arpitgrewal$ ssh -p 24 USERNAME@csil-cpu1.csil.sfu.ca
+USERNAME@csil-cpu1.csil.sfu.ca's password: 
+Permission denied, please try again.
+USERNAME@csil-cpu1.csil.sfu.ca's password: 
+
+(base) d142-058-062-136:~ arpitgrewal$ ssh -p 24 aarpitka@csil-cpu1.csil.sfu.ca
+aarpitka@csil-cpu1.csil.sfu.ca's password: 
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-118-generic x86_64)
+
+  CSIL Workstations FAQs | http://www.sfu.ca/computing/about/support/csil/unix.html/
+     Technical Support | helpdesk@cs.sfu.ca
+
+*** System restart required ***
+aarpitka@csil-cpu1:~$ ls
+ Android   Documents   Music	  sfuhome    'VirtualBox VMs'
+ assign1   Downloads   Pictures   Templates
+ Desktop   Full_Code   Public	  Videos
+aarpitka@csil-cpu1:~$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+aarpitka@csil-cpu1:~$ export PYSPARK_PYTHON=python3
+aarpitka@csil-cpu1:~$ pyspark
+Python 3.7.3 (default, Mar 27 2019, 22:11:17) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+20/11/13 16:46:54 WARN Utils: Your hostname, csil-cpu1 resolves to a loopback address: 127.0.0.1; using 206.12.16.179 instead (on interface ens32)
+20/11/13 16:46:54 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+20/11/13 16:46:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 2.4.7
+      /_/
+
+Using Python version 3.7.3 (default, Mar 27 2019 22:11:17)
+SparkSession available as 'spark'.
+>>> print("hello world")
+hello world
+>>> 

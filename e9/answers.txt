@@ -1,0 +1,1 @@
+1) The application ID that I got from the first_spark.py on the cluster was : application_1600361713204_9671

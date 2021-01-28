@@ -1,0 +1,150 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: '-f'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-2-8abeefca0218>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     82\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     83\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0m__name__\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m'__main__'\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 84\u001b[0;31m     \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-2-8abeefca0218>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     74\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     75\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 76\u001b[0;31m     \u001b[0mpoints\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mget_data\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msys\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0margv\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     77\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Unfiltered distance: %0.2f'\u001b[0m \u001b[0;34m%\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mdistance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpoints\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     78\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m<ipython-input-2-8abeefca0218>\u001b[0m in \u001b[0;36mget_data\u001b[0;34m(file)\u001b[0m\n\u001b[1;32m     11\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mget_data\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 13\u001b[0;31m     \u001b[0mN_file\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mparse\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     14\u001b[0m     \u001b[0mdata\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mN_file\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetElementsByTagName\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'trkpt'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m     \u001b[0mresult_data\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpd\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mDataFrame\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcolumns\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'lat'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'lon'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/xml/dom/minidom.py\u001b[0m in \u001b[0;36mparse\u001b[0;34m(file, parser, bufsize)\u001b[0m\n\u001b[1;32m   1957\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mparser\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mNone\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0mbufsize\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1958\u001b[0m         \u001b[0;32mfrom\u001b[0m \u001b[0mxml\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdom\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mexpatbuilder\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1959\u001b[0;31m         \u001b[0;32mreturn\u001b[0m \u001b[0mexpatbuilder\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mparse\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1960\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1961\u001b[0m         \u001b[0;32mfrom\u001b[0m \u001b[0mxml\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdom\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mpulldom\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/xml/dom/expatbuilder.py\u001b[0m in \u001b[0;36mparse\u001b[0;34m(file, namespaces)\u001b[0m\n\u001b[1;32m    908\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    909\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0misinstance\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 910\u001b[0;31m         \u001b[0;32mwith\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'rb'\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mfp\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    911\u001b[0m             \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mbuilder\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mparseFile\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfp\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    912\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: '-f'"
+     ]
+    }
+   ],
+   "source": [
+    "from xml.dom.minidom import parse, parseString\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import sys\n",
+    "import math\n",
+    "from pykalman import KalmanFilter\n",
+    "\n",
+    "def get_data(file):\n",
+    "    N_file = parse(file)\n",
+    "    data = N_file.getElementsByTagName('trkpt')\n",
+    "    result_data = pd.DataFrame(columns=['lat', 'lon'])\n",
+    "    for i in range(len(data)):\n",
+    "        result_data.loc[i]=float(data[i].attributes['lat'].value), float(data[i].attributes['lon'].value)\n",
+    "    return result_data\n",
+    "\n",
+    "#This is found from:\n",
+    "#https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/21623206\n",
+    "def distance_TWO_points(lat1,lon1,lat2,lon2):\n",
+    "    R = 6371 # Radius of the earth in km\n",
+    "    dLat = math.radians(lat2-lat1)  #deg2rad below\n",
+    "    dLon = math.radians(lon2-lon1)\n",
+    "    a = math.sin(dLat/2) * math.sin(dLat/2) + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dLon/2) * math.sin(dLon/2)\n",
+    "    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))\n",
+    "    dis = R * c # Distance in km\n",
+    "    return dis\n",
+    "dis_F = np.vectorize(distance_TWO_points)\n",
+    "\n",
+    "def distance(data):\n",
+    "    data['distance'] = dis_F(data['lat'],data['lon'],data['lat'].shift(-1),data['lon'].shift(-1))\n",
+    "    dis_sum = data['distance'].sum()\n",
+    "    del data['distance']\n",
+    "    return dis_sum * 1000\n",
+    "\n",
+    "def smooth(data):\n",
+    "    initial_state = data.iloc[0]\n",
+    "    observation_covariance = np.diag([15/10**5, 15/10**5]) ** 2\n",
+    "    transition_covariance = np.diag([8/10**5,8/10**5]) ** 2\n",
+    "    transition = [[1, 0], [0, 1]]\n",
+    "    kf = KalmanFilter(initial_state_mean=initial_state,\n",
+    "                initial_state_covariance=observation_covariance,\n",
+    "                observation_covariance=observation_covariance,\n",
+    "                transition_covariance=transition_covariance,\n",
+    "                transition_matrices=transition)\n",
+    "    kalman_smoothed, _ = kf.smooth(data)\n",
+    "    result = pd.DataFrame(kalman_smoothed,columns=['lat','lon'])\n",
+    "    return result\n",
+    "\n",
+    "def output_gpx(points, output_filename):\n",
+    "    \"\"\"\n",
+    "    Output a GPX file with latitude and longitude from the points DataFrame.\n",
+    "    \"\"\"\n",
+    "    from xml.dom.minidom import getDOMImplementation\n",
+    "    def append_trkpt(pt, trkseg, doc):\n",
+    "        trkpt = doc.createElement('trkpt')\n",
+    "        trkpt.setAttribute('lat', '%.8f' % (pt['lat']))\n",
+    "        trkpt.setAttribute('lon', '%.8f' % (pt['lon']))\n",
+    "        trkseg.appendChild(trkpt)\n",
+    "    \n",
+    "    doc = getDOMImplementation().createDocument(None, 'gpx', None)\n",
+    "    trk = doc.createElement('trk')\n",
+    "    doc.documentElement.appendChild(trk)\n",
+    "    trkseg = doc.createElement('trkseg')\n",
+    "    trk.appendChild(trkseg)\n",
+    "    \n",
+    "    points.apply(append_trkpt, axis=1, trkseg=trkseg, doc=doc)\n",
+    "    \n",
+    "    with open(output_filename, 'w') as fh:\n",
+    "        doc.writexml(fh, indent=' ')\n",
+    "\n",
+    "\n",
+    "def main():\n",
+    "    points = get_data(sys.argv[1])\n",
+    "    print('Unfiltered distance: %0.2f' % (distance(points),))\n",
+    "    \n",
+    "    smoothed_points = smooth(points)\n",
+    "    print('Filtered distance: %0.2f' % (distance(smoothed_points),))\n",
+    "    output_gpx(smoothed_points, 'out.gpx')\n",
+    "    \n",
+    "if __name__ == '__main__':\n",
+    "    main()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

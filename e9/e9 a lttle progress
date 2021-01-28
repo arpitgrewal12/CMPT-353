@@ -1,0 +1,800 @@
+Last login: Fri Nov 13 18:09:18 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) d142-058-062-136:~ arpitgrewal$ cd desktop
+(base) d142-058-062-136:desktop arpitgrewal$ ls
+5_Genius_Intentions_Workbook.pdf
+Archive
+Arpit Resume
+Arpit.pdf
+BOL
+Backup
+Books
+CELS Wbsite doc.pages
+Canada Background Check Consent Form for Amazon Candidates.pdf
+Certificate of illness.png
+Consent for Electronic Signature and Delivery.pdf
+FALL2020
+Gifts.pages
+Giraffe
+IMG_1985.JPG
+Important Documents 2020
+Important links.pages
+Kedarnath.docx
+Lab10
+Peer Education
+Personality tests
+Pictures
+RGIS PAPERWORK
+Research Grant
+Research IOT
+Resume
+SFU 
+Scanned docs
+Screen Shot 2020-10-05 at 12.21.43.png
+Screen Shot 2020-10-08 at 21.57.32.png
+Screen Shot 2020-10-24 at 17.11.07.png
+Screen Shot 2020-10-24 at 17.11.22.png
+Screen Shot 2020-10-24 at 17.13.00.png
+Screen Shot 2020-10-25 at 16.49.18.png
+Screen Shot 2020-11-06 at 13.26.40.png
+Terminal Saved Output cmpt353e9
+Terminal Saved Output e2
+Terminal Saved Output e9
+Terminal commands
+To do lists
+Udemy
+Untitled.ipynb
+Virtual box
+Visa Docs
+WORK STUDY
+Workstudyfall2020
+Xcode projects
+asb9820-e03.rdp
+asb9840-c06.rdp
+cels aem imafges
+cmpt276A1-master-2.zip
+driver-full.pdf
+important tabs
+pyspark
+spark-3.0.1-bin-hadoop2.7.tar
+tasksssss
+wordpress
+(base) d142-058-062-136:desktop arpitgrewal$ cd FALL2020
+(base) d142-058-062-136:FALL2020 arpitgrewal$ ls
+CMPT-353-Assignments-at-SFU-master
+CMPT353
+CMPT459
+Math303
+Object-Oriented Programming: Classes and Objects in Python | DigitalOcean.pdf
+decision tree - Jupyter Notebook.pdf
+e4master
+temperature_correlation.ipynb
+threefiftythree
+(base) d142-058-062-136:FALL2020 arpitgrewal$ cd CMPT353
+(base) d142-058-062-136:CMPT353 arpitgrewal$ ls
+CMPT353Exercises
+Cleaning Data.pdf
+Course Introduction.pdf
+Data Analysis Pipeline.pdf
+Data In Python.pdf
+Extract month and year to a new column in Pandas | Data Interview Questions.pdf
+Extract-Transform-Load.pdf
+Getting Data.pdf
+Inferential Stats.pdf
+Noise Filtering.pdf
+Statistical Tests.pdf
+Stats Review.pdf
+(base) d142-058-062-136:CMPT353 arpitgrewal$ cd CMPT353Exercises
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ 
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ ls
+CourSys - Exercise 1.pdf	e2
+CourSys - Exercise 2.pdf	e2final
+CourSys - Exercise 3.pdf	e3
+CourSys - Exercise 3.ps		e4
+CourSys - Exercise 4.pdf	e5
+CourSys - Exercise 5.pdf	e6
+CourSys - Exercise 8.pdf	e7
+Untitled.ipynb			e8
+e1				e9
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ cd e9
+(base) d142-058-062-136:e9 arpitgrewal$ ls
+first_spark.py		weather-1		xyz-1
+output			weather_etl_hint.py
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:15:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:15:22 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:15:22 INFO ResourceUtils: ==============================================================
+20/11/13 18:15:22 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:15:22 INFO ResourceUtils: ==============================================================
+20/11/13 18:15:22 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:15:22 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:15:22 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:15:22 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:15:22 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:15:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:15:23 INFO Utils: Successfully started service 'sparkDriver' on port 53268.
+20/11/13 18:15:23 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:15:23 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:15:23 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:15:23 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:15:23 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:15:23 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-76b5c95a-55d8-4fcb-a699-e216b50b164d
+20/11/13 18:15:23 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:15:23 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:15:23 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:15:23 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:15:23 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:15:23 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53269.
+20/11/13 18:15:23 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53269
+20/11/13 18:15:23 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:15:23 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53269, None)
+20/11/13 18:15:23 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53269 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53269, None)
+20/11/13 18:15:23 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53269, None)
+20/11/13 18:15:23 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53269, None)
+20/11/13 18:15:23 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:15:23 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+(base) d142-058-062-136:e9 arpitgrewal$ cat output/part-* | less
+(base) d142-058-062-136:e9 arpitgrewal$ pyspark.sql.functions.avg(col)
+-bash: syntax error near unexpected token `col'
+(base) d142-058-062-136:e9 arpitgrewal$ pyspark.sql.functions.avg(y)
+-bash: syntax error near unexpected token `y'
+(base) d142-058-062-136:e9 arpitgrewal$ cat output/part-* | less
+(base) d142-058-062-136:e9 arpitgrewal$ module load 353
+-bash: module: command not found
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py /courses/353/xyz-2 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:17:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:17:58 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:17:58 INFO ResourceUtils: ==============================================================
+20/11/13 18:17:58 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:17:58 INFO ResourceUtils: ==============================================================
+20/11/13 18:17:58 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:17:58 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:17:58 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:17:58 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:17:58 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:17:58 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:17:59 INFO Utils: Successfully started service 'sparkDriver' on port 53386.
+20/11/13 18:17:59 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:17:59 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:17:59 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:17:59 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:17:59 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:17:59 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-7ecaaaaf-144d-4088-a108-97a7cc918b04
+20/11/13 18:17:59 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:17:59 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:17:59 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:17:59 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:17:59 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:17:59 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53387.
+20/11/13 18:17:59 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53387
+20/11/13 18:17:59 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:17:59 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53387, None)
+20/11/13 18:17:59 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53387 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53387, None)
+20/11/13 18:17:59 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53387, None)
+20/11/13 18:17:59 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53387, None)
+20/11/13 18:18:00 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:18:00 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+Traceback (most recent call last):
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 47, in <module>
+    main(in_directory, out_directory)
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 21, in main
+    xyz = spark.read.json(in_directory, schema=schema)
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 300, in json
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1304, in __call__
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/utils.py", line 134, in deco
+  File "<string>", line 3, in raise_from
+pyspark.sql.utils.AnalysisException: Path does not exist: file:/courses/353/xyz-2;
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py /desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-2 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:19:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:19:58 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:19:58 INFO ResourceUtils: ==============================================================
+20/11/13 18:19:58 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:19:58 INFO ResourceUtils: ==============================================================
+20/11/13 18:19:58 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:19:58 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:19:58 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:19:58 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:19:58 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:19:58 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:19:58 INFO Utils: Successfully started service 'sparkDriver' on port 53455.
+20/11/13 18:19:58 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:19:58 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:19:58 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:19:58 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:19:58 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:19:58 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-7c145917-f8d8-4858-a392-525c136a2aa0
+20/11/13 18:19:58 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:19:58 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:19:58 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:19:59 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:19:59 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:19:59 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53456.
+20/11/13 18:19:59 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53456
+20/11/13 18:19:59 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:19:59 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53456, None)
+20/11/13 18:19:59 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53456 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53456, None)
+20/11/13 18:19:59 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53456, None)
+20/11/13 18:19:59 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53456, None)
+20/11/13 18:19:59 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:19:59 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+Traceback (most recent call last):
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 47, in <module>
+    main(in_directory, out_directory)
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 21, in main
+    xyz = spark.read.json(in_directory, schema=schema)
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 300, in json
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1304, in __call__
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/utils.py", line 134, in deco
+  File "<string>", line 3, in raise_from
+pyspark.sql.utils.AnalysisException: Path does not exist: file:/desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-2;
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py /desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:20:13 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:20:14 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:20:14 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:14 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:20:14 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:14 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:20:14 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:20:14 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:20:14 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:20:14 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:20:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:20:14 INFO Utils: Successfully started service 'sparkDriver' on port 53467.
+20/11/13 18:20:14 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:20:14 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:20:14 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:20:14 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:20:14 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:20:14 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-8e63e996-e32c-4b95-9f60-14deaa7f7d15
+20/11/13 18:20:14 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:20:14 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:20:14 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:20:14 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:20:15 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:20:15 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53470.
+20/11/13 18:20:15 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53470
+20/11/13 18:20:15 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:20:15 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53470, None)
+20/11/13 18:20:15 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53470 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53470, None)
+20/11/13 18:20:15 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53470, None)
+20/11/13 18:20:15 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53470, None)
+20/11/13 18:20:15 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:20:15 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+Traceback (most recent call last):
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 47, in <module>
+    main(in_directory, out_directory)
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 21, in main
+    xyz = spark.read.json(in_directory, schema=schema)
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 300, in json
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1304, in __call__
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/utils.py", line 134, in deco
+  File "<string>", line 3, in raise_from
+pyspark.sql.utils.AnalysisException: Path does not exist: file:/desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-1;
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py /desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:20:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:20:23 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:20:23 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:23 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:20:23 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:23 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:20:23 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:20:23 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:20:23 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:20:23 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:20:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:20:23 INFO Utils: Successfully started service 'sparkDriver' on port 53477.
+20/11/13 18:20:23 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:20:23 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:20:23 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:20:23 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:20:23 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:20:23 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-f643be15-3681-4b61-b086-228691d23d45
+20/11/13 18:20:23 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:20:23 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:20:24 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:20:24 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:20:24 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:20:24 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53478.
+20/11/13 18:20:24 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53478
+20/11/13 18:20:24 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:20:24 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53478, None)
+20/11/13 18:20:24 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53478 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53478, None)
+20/11/13 18:20:24 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53478, None)
+20/11/13 18:20:24 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53478, None)
+20/11/13 18:20:24 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:20:24 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+Traceback (most recent call last):
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 47, in <module>
+    main(in_directory, out_directory)
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 21, in main
+    xyz = spark.read.json(in_directory, schema=schema)
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 300, in json
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1304, in __call__
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/lib/pyspark.zip/pyspark/sql/utils.py", line 134, in deco
+  File "<string>", line 3, in raise_from
+pyspark.sql.utils.AnalysisException: Path does not exist: file:/desktop/FALL2020/CMPT353/CMPT353Exercises/e9/xyz-1;
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:20:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:20:55 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:20:55 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:55 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:20:55 INFO ResourceUtils: ==============================================================
+20/11/13 18:20:55 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:20:55 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:20:55 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:20:55 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:20:55 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:20:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:20:55 INFO Utils: Successfully started service 'sparkDriver' on port 53509.
+20/11/13 18:20:55 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:20:55 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:20:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:20:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:20:55 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:20:55 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-9c27200f-b8c5-4955-a992-c8609b0119c8
+20/11/13 18:20:55 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:20:55 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:20:55 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:20:55 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:20:55 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:20:55 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53510.
+20/11/13 18:20:55 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53510
+20/11/13 18:20:55 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:20:55 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53510, None)
+20/11/13 18:20:55 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53510 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53510, None)
+20/11/13 18:20:55 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53510, None)
+20/11/13 18:20:55 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53510, None)
+20/11/13 18:20:56 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:20:56 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+(base) d142-058-062-136:e9 arpitgrewal$  ssh aarpitka@gateway.sfucloud.ca
+aarpitka@gateway.sfucloud.ca's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-179-generic x86_64)
+
+  This server is your gateway into the Hadoop cluster.
+  Please use instructions as provided by your instructor to submit to the cluster.
+  Please abstain from compiling large code on the gateway node.
+  If you need to compile code on a single non-Hadoop machine, please use: ts.sfucloud.ca 
+  If you have any technical questions or reports, please contact:
+     Technical Support | helpdesk@cs.sfu.ca
+
+
+ System information disabled due to load higher than 4.0
+Last login: Fri Nov 13 18:00:31 2020 from 142.58.62.136
+aarpitka@gateway:~$ q
+The program 'q' can be found in the following packages:
+ * python-q-text-as-data
+ * python3-q-text-as-data
+Ask your administrator to install one of them
+aarpitka@gateway:~$ ^C
+aarpitka@gateway:~$ ^C
+aarpitka@gateway:~$ logout
+Connection to gateway.sfucloud.ca closed.
+(base) d142-058-062-136:e9 arpitgrewal$ ssh -L 50070:master.sfucloud.ca:50070 -L 8088:master.sfucloud.ca:8088 aarpitka@gateway.sfucloud.ca
+aarpitka@gateway.sfucloud.ca's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-179-generic x86_64)
+
+  This server is your gateway into the Hadoop cluster.
+  Please use instructions as provided by your instructor to submit to the cluster.
+  Please abstain from compiling large code on the gateway node.
+  If you need to compile code on a single non-Hadoop machine, please use: ts.sfucloud.ca 
+  If you have any technical questions or reports, please contact:
+     Technical Support | helpdesk@cs.sfu.ca
+
+
+ System information disabled due to load higher than 4.0
+Last login: Fri Nov 13 18:22:28 2020 from 142.58.62.136
+aarpitka@gateway:~$ ^C
+aarpitka@gateway:~$ ^C
+aarpitka@gateway:~$ logout
+Connection to gateway.sfucloud.ca closed.
+(base) d142-058-062-136:e9 arpitgrewal$ cd
+(base) d142-058-062-136:~ arpitgrewal$ cd desktop
+(base) d142-058-062-136:desktop arpitgrewal$ ls
+5_Genius_Intentions_Workbook.pdf
+Archive
+Arpit Resume
+Arpit.pdf
+BOL
+Backup
+Books
+CELS Wbsite doc.pages
+Canada Background Check Consent Form for Amazon Candidates.pdf
+Certificate of illness.png
+Consent for Electronic Signature and Delivery.pdf
+FALL2020
+Gifts.pages
+Giraffe
+IMG_1985.JPG
+Important Documents 2020
+Important links.pages
+Kedarnath.docx
+Lab10
+Peer Education
+Personality tests
+Pictures
+RGIS PAPERWORK
+Research Grant
+Research IOT
+Resume
+SFU 
+Scanned docs
+Screen Shot 2020-10-05 at 12.21.43.png
+Screen Shot 2020-10-08 at 21.57.32.png
+Screen Shot 2020-10-24 at 17.11.07.png
+Screen Shot 2020-10-24 at 17.11.22.png
+Screen Shot 2020-10-24 at 17.13.00.png
+Screen Shot 2020-10-25 at 16.49.18.png
+Screen Shot 2020-11-06 at 13.26.40.png
+Terminal Saved Output cmpt353e9
+Terminal Saved Output e2
+Terminal Saved Output e9
+Terminal commands
+To do lists
+Udemy
+Untitled.ipynb
+Virtual box
+Visa Docs
+WORK STUDY
+Workstudyfall2020
+Xcode projects
+asb9820-e03.rdp
+asb9840-c06.rdp
+cels aem imafges
+cmpt276A1-master-2.zip
+driver-full.pdf
+important tabs
+pyspark
+spark-3.0.1-bin-hadoop2.7.tar
+tasksssss
+wordpress
+(base) d142-058-062-136:desktop arpitgrewal$ cd FALL2020
+(base) d142-058-062-136:FALL2020 arpitgrewal$ ls
+CMPT-353-Assignments-at-SFU-master
+CMPT353
+CMPT459
+Math303
+Object-Oriented Programming: Classes and Objects in Python | DigitalOcean.pdf
+decision tree - Jupyter Notebook.pdf
+e4master
+temperature_correlation.ipynb
+threefiftythree
+(base) d142-058-062-136:FALL2020 arpitgrewal$ cd CMPT353
+(base) d142-058-062-136:CMPT353 arpitgrewal$ ls
+CMPT353Exercises
+Cleaning Data.pdf
+Course Introduction.pdf
+Data Analysis Pipeline.pdf
+Data In Python.pdf
+Extract month and year to a new column in Pandas | Data Interview Questions.pdf
+Extract-Transform-Load.pdf
+Getting Data.pdf
+Inferential Stats.pdf
+Noise Filtering.pdf
+Statistical Tests.pdf
+Stats Review.pdf
+(base) d142-058-062-136:CMPT353 arpitgrewal$ cd CMPT353Exercises
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ ls
+CourSys - Exercise 1.pdf	e2
+CourSys - Exercise 2.pdf	e2final
+CourSys - Exercise 3.pdf	e3
+CourSys - Exercise 3.ps		e4
+CourSys - Exercise 4.pdf	e5
+CourSys - Exercise 5.pdf	e6
+CourSys - Exercise 8.pdf	e7
+Untitled.ipynb			e8
+e1				e9
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ cd e9
+(base) d142-058-062-136:e9 arpitgrewal$ ls
+first_spark.py		weather-1		xyz-1
+output			weather_etl_hint.py
+(base) d142-058-062-136:e9 arpitgrewal$ scp first_spark.py aarpitka@gateway.sfucloud.ca:
+aarpitka@gateway.sfucloud.ca's password: 
+first_spark.py                                100% 1501   368.3KB/s   00:00    
+(base) d142-058-062-136:e9 arpitgrewal$ module load 353
+-bash: module: command not found
+(base) d142-058-062-136:e9 arpitgrewal$ scp xyz-1 aarpitka@gateway.sfucloud.ca:
+aarpitka@gateway.sfucloud.ca's password: 
+
+xyz-1: not a regular file
+(base) d142-058-062-136:e9 arpitgrewal$ 
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:29:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:29:08 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:29:08 INFO ResourceUtils: ==============================================================
+20/11/13 18:29:08 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:29:08 INFO ResourceUtils: ==============================================================
+20/11/13 18:29:08 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:29:08 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:29:08 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:29:08 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:29:08 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:29:08 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:29:08 INFO Utils: Successfully started service 'sparkDriver' on port 53795.
+20/11/13 18:29:08 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:29:08 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:29:09 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:29:09 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:29:09 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:29:09 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-2a0610b9-73c9-4933-8426-082553f443c8
+20/11/13 18:29:09 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:29:09 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:29:09 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:29:09 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:29:09 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:29:09 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53796.
+20/11/13 18:29:09 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53796
+20/11/13 18:29:09 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:29:09 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53796, None)
+20/11/13 18:29:09 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53796 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53796, None)
+20/11/13 18:29:09 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53796, None)
+20/11/13 18:29:09 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53796, None)
+20/11/13 18:29:09 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:29:09 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+(base) d142-058-062-136:e9 arpitgrewal$ export PYSPARK_PYTHON=python3
+(base) d142-058-062-136:e9 arpitgrewal$ export PATH=${PATH}:/Users/arpitkaur/Desktop/spark-3.0.0-bin-hadoop2.7/bin
+(base) d142-058-062-136:e9 arpitgrewal$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit sparkcodee.py
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:30:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+python3: can't open file '/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/sparkcodee.py': [Errno 2] No such file or directory
+log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit sparkcode.py
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:30:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+python3: can't open file '/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/sparkcode.py': [Errno 2] No such file or directory
+log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+(base) d142-058-062-136:e9 arpitgrewal$ pyspark
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:30:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 3.0.1
+      /_/
+
+Using Python version 3.8.3 (default, Jul  2 2020 11:26:31)
+SparkSession available as 'spark'.
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+(base) d142-058-062-136:e9 arpitgrewal$  ssh aarpitka@gateway.sfucloud.ca
+aarpitka@gateway.sfucloud.ca's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-179-generic x86_64)
+
+  This server is your gateway into the Hadoop cluster.
+  Please use instructions as provided by your instructor to submit to the cluster.
+  Please abstain from compiling large code on the gateway node.
+  If you need to compile code on a single non-Hadoop machine, please use: ts.sfucloud.ca 
+  If you have any technical questions or reports, please contact:
+     Technical Support | helpdesk@cs.sfu.ca
+
+
+  System information as of Fri Nov 13 18:32:58 PST 2020
+
+  System load:  1.98             Processes:           910
+  Usage of /:   3.2% of 1.92TB   Users logged in:     25
+  Memory usage: 72%              IP address for eth0: 199.60.17.220
+  Swap usage:   1%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+Last login: Fri Nov 13 18:23:08 2020 from 142.58.62.136
+aarpitka@gateway:~$ module load 353
+aarpitka@gateway:~$ spark-submit first_spark.py /courses/353/xyz-2 output
+
+20/11/13 18:33:20 INFO spark.SparkContext: Running Spark version 2.4.6
+20/11/13 18:33:20 INFO spark.SparkContext: Submitted application: first Spark app
+20/11/13 18:33:20 INFO spark.SecurityManager: Changing view acls to: aarpitka
+20/11/13 18:33:20 INFO spark.SecurityManager: Changing modify acls to: aarpitka
+20/11/13 18:33:20 INFO spark.SecurityManager: Changing view acls groups to: 
+20/11/13 18:33:20 INFO spark.SecurityManager: Changing modify acls groups to: 
+20/11/13 18:33:20 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aarpitka); groups with view permissions: Set(); users  with modify permissions: Set(aarpitka); groups with modify permissions: Set()
+20/11/13 18:33:20 INFO util.Utils: Successfully started service 'sparkDriver' on port 44474.
+20/11/13 18:33:20 INFO spark.SparkEnv: Registering MapOutputTracker
+20/11/13 18:33:20 INFO spark.SparkEnv: Registering BlockManagerMaster
+20/11/13 18:33:20 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:33:20 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:33:20 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-73067242-684d-4e77-8ca4-05b46dae0ff4
+20/11/13 18:33:20 INFO memory.MemoryStore: MemoryStore started with capacity 366.3 MB
+20/11/13 18:33:20 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:33:20 INFO util.log: Logging initialized @3252ms
+20/11/13 18:33:21 INFO server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+20/11/13 18:33:21 INFO server.Server: Started @3351ms
+20/11/13 18:33:21 INFO server.AbstractConnector: Started ServerConnector@c8e572d{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+20/11/13 18:33:21 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1396db87{/jobs,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e1ecc63{/jobs/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@33727ad8{/jobs/job,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@77b50beb{/jobs/job/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1fa0bcaa{/stages,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3fa4b13c{/stages/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@628655f0{/stages/stage,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3ddb3668{/stages/stage/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6d22cdf6{/stages/pool,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4fb3537a{/stages/pool/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@a6d5ffa{/storage,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6ee150a9{/storage/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@15576dfe{/storage/rdd,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@402ad4ad{/storage/rdd/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2058d1dd{/environment,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4458a967{/environment/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6a4e048f{/executors,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c573ad7{/executors/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1a67cab9{/executors/threadDump,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1bf54b03{/executors/threadDump/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1854e8e{/static,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3a575a9a{/,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7935eef5{/api,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@715650f4{/jobs/job/kill,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4489aac5{/stages/stage/kill,null,AVAILABLE,@Spark}
+20/11/13 18:33:21 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://nml-cloud-220.cs.sfu.ca:4040
+20/11/13 18:33:21 INFO util.Utils: Using initial executors = 1, max of spark.dynamicAllocation.initialExecutors, spark.dynamicAllocation.minExecutors and spark.executor.instances
+20/11/13 18:33:22 INFO client.RMProxy: Connecting to ResourceManager at nml-cloud-149.cs.sfu.ca/199.60.17.149:8032
+20/11/13 18:33:22 INFO yarn.Client: Requesting a new application from cluster with 5 NodeManagers
+20/11/13 18:33:22 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (112640 MB per container)
+20/11/13 18:33:22 INFO yarn.Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/11/13 18:33:22 INFO yarn.Client: Setting up container launch context for our AM
+20/11/13 18:33:22 INFO yarn.Client: Setting up the launch environment for our AM container
+20/11/13 18:33:22 INFO yarn.Client: Preparing resources for our AM container
+20/11/13 18:33:22 INFO yarn.Client: Uploading resource file:/home/envmodules/lib/spark-2.4.6-bin-hadoop2.7/python/lib/pyspark.zip -> hdfs://nml-cloud-149.cs.sfu.ca:8020/user/aarpitka/.sparkStaging/application_1600361713204_9415/pyspark.zip
+20/11/13 18:33:23 INFO yarn.Client: Uploading resource file:/home/envmodules/lib/spark-2.4.6-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip -> hdfs://nml-cloud-149.cs.sfu.ca:8020/user/aarpitka/.sparkStaging/application_1600361713204_9415/py4j-0.10.7-src.zip
+20/11/13 18:33:23 INFO yarn.Client: Uploading resource file:/tmp/spark-a37c46e1-91bd-45a9-9de1-81d79bd41911/__spark_conf__5910778772468034528.zip -> hdfs://nml-cloud-149.cs.sfu.ca:8020/user/aarpitka/.sparkStaging/application_1600361713204_9415/__spark_conf__.zip
+20/11/13 18:33:23 INFO spark.SecurityManager: Changing view acls to: aarpitka
+20/11/13 18:33:23 INFO spark.SecurityManager: Changing modify acls to: aarpitka
+20/11/13 18:33:23 INFO spark.SecurityManager: Changing view acls groups to: 
+20/11/13 18:33:23 INFO spark.SecurityManager: Changing modify acls groups to: 
+20/11/13 18:33:23 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(aarpitka); groups with view permissions: Set(); users  with modify permissions: Set(aarpitka); groups with modify permissions: Set()
+20/11/13 18:33:24 INFO yarn.Client: Submitting application application_1600361713204_9415 to ResourceManager
+20/11/13 18:33:24 INFO impl.YarnClientImpl: Submitted application application_1600361713204_9415
+20/11/13 18:33:24 INFO cluster.SchedulerExtensionServices: Starting Yarn extension services with app application_1600361713204_9415 and attemptId None
+20/11/13 18:33:25 INFO yarn.Client: Application report for application_1600361713204_9415 (state: ACCEPTED)
+20/11/13 18:33:25 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.users.aarpitka
+	 start time: 1605321204868
+	 final status: UNDEFINED
+	 tracking URL: http://nml-cloud-149.cs.sfu.ca:8088/proxy/application_1600361713204_9415/
+	 user: aarpitka
+20/11/13 18:33:26 INFO yarn.Client: Application report for application_1600361713204_9415 (state: ACCEPTED)
+20/11/13 18:33:27 INFO yarn.Client: Application report for application_1600361713204_9415 (state: ACCEPTED)
+20/11/13 18:33:28 INFO cluster.YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> nml-cloud-149.cs.sfu.ca, PROXY_URI_BASES -> http://nml-cloud-149.cs.sfu.ca:8088/proxy/application_1600361713204_9415), /proxy/application_1600361713204_9415
+20/11/13 18:33:28 INFO yarn.Client: Application report for application_1600361713204_9415 (state: RUNNING)
+20/11/13 18:33:28 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 199.60.17.210
+	 ApplicationMaster RPC port: -1
+	 queue: root.users.aarpitka
+	 start time: 1605321204868
+	 final status: UNDEFINED
+	 tracking URL: http://nml-cloud-149.cs.sfu.ca:8088/proxy/application_1600361713204_9415/
+	 user: aarpitka
+20/11/13 18:33:28 INFO cluster.YarnClientSchedulerBackend: Application application_1600361713204_9415 has started running.
+20/11/13 18:33:28 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43958.
+20/11/13 18:33:28 INFO netty.NettyBlockTransferService: Server created on nml-cloud-220.cs.sfu.ca:43958
+20/11/13 18:33:28 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:33:29 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, nml-cloud-220.cs.sfu.ca, 43958, None)
+20/11/13 18:33:29 INFO storage.BlockManagerMasterEndpoint: Registering block manager nml-cloud-220.cs.sfu.ca:43958 with 366.3 MB RAM, BlockManagerId(driver, nml-cloud-220.cs.sfu.ca, 43958, None)
+20/11/13 18:33:29 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, nml-cloud-220.cs.sfu.ca, 43958, None)
+20/11/13 18:33:29 INFO storage.BlockManager: external shuffle service port = 7337
+20/11/13 18:33:29 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, nml-cloud-220.cs.sfu.ca, 43958, None)
+20/11/13 18:33:29 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/11/13 18:33:29 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /metrics/json.
+20/11/13 18:33:29 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5d899812{/metrics/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:29 INFO util.Utils: Using initial executors = 1, max of spark.dynamicAllocation.initialExecutors, spark.dynamicAllocation.minExecutors and spark.executor.instances
+20/11/13 18:33:32 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (199.60.17.193:48958) with ID 1
+20/11/13 18:33:32 INFO spark.ExecutorAllocationManager: New executor 1 has registered (new total is 1)
+20/11/13 18:33:32 INFO cluster.YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/11/13 18:33:32 INFO storage.BlockManagerMasterEndpoint: Registering block manager nml-cloud-193.cs.sfu.ca:43812 with 2004.6 MB RAM, BlockManagerId(1, nml-cloud-193.cs.sfu.ca, 43812, None)
+20/11/13 18:33:32 INFO internal.SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('/user/hive/warehouse').
+20/11/13 18:33:32 INFO internal.SharedState: Warehouse path is '/user/hive/warehouse'.
+20/11/13 18:33:32 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL.
+20/11/13 18:33:32 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@586a529{/SQL,null,AVAILABLE,@Spark}
+20/11/13 18:33:32 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/json.
+20/11/13 18:33:32 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ff6d177{/SQL/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:32 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution.
+20/11/13 18:33:32 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@16f866ad{/SQL/execution,null,AVAILABLE,@Spark}
+20/11/13 18:33:32 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /SQL/execution/json.
+20/11/13 18:33:32 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7a5ccaab{/SQL/execution/json,null,AVAILABLE,@Spark}
+20/11/13 18:33:32 INFO ui.JettyUtils: Adding filter org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter to /static/sql.
+20/11/13 18:33:32 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4ecc445d{/static/sql,null,AVAILABLE,@Spark}
+20/11/13 18:33:33 INFO state.StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+aarpitka@gateway:~$ 
+aarpitka@gateway:~$ hdfs dfs -cat output/*
+0,4.99942407671683E7,1000000
+1,5.002889829187697E7,1000000
+2,5.003147831152716E7,1000000
+3,4.997813562167047E7,1000000
+4,4.996175760092351E7,1000000
+5,5.002479922842539E7,1000000
+6,4.995655638686894E7,1000000
+7,5.002600318094592E7,1000000
+8,5.005498468237749E7,1000000
+9,5.00048178578616E7,1000000
+aarpitka@gateway:~$ 

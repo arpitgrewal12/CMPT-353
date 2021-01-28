@@ -1,0 +1,4 @@
+1.I found NumPy easier to work with than Panda. I think this is because Numpy is used more often with python and it involves basic array calculations wheras Pandas is more flexible because it has more functionality related to it.Also, if we look at the line of code for np_summary and pd_summary file, we see that the code for totals and counts is easier to read and hence Numpy is easier to read.
+2.The running times for pivot_months_pandas came out to be 11.6 ms ± 689 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+  The running times for pivot_months_loops came out to be 1.63 s ± 71.2 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+  As you can see that pandas is faster than loops because pandas uses numPy libraries.

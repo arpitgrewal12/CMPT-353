@@ -1,0 +1,3 @@
+Answer1. I do think that the residuals are close enough to being normal.The number of data points is large(> 40) so we can apply Central Limit Theorem to conert them into a normal distribution. We can also see the histogram, and after observation, we see normal-like distribution.Due to p value, we can say that the ratings are increasing.
+
+Answer2. Yes, I do think that the new "better" prediction has let the Kalman filter do a better job capturing the true signals in the noise.

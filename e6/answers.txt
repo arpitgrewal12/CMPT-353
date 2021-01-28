@@ -1,0 +1,9 @@
+Answer1: In my opinion we are p-hacking in the first part because we are selecting a specific set of data( instructors) to see the results. However, initially we used all the data.As we can see from the result, three of the cases are inconclusive as p value is greater than 0.05. But we can say that instructors serach more often because the p value is les than 0.05.Alo, we are usin Mannwhitney and Chi test here.
+
+Answer2:We will run (7 chooses 2 tests) i.e 21 tests. The required probability will be 1- (0.95^21)=>1-0.34=>0.659.This is bad because we want p < 0.05/21 = 0.0024 
+
+Answer3:
+The ranking in ascending order would be:
+partition_sort, qs1 ,[(qs2 ,qs5), (qs4 ,qs3)],merge1
+The ones with similar values are given in brackets.
+Everytime I generate new data.csv, I get a little different results. The orders of values  in the big square parenthesis get interchanged every time.

@@ -1,0 +1,11 @@
+Answer 1) (1)With reddit-0  :  0m15.179s
+          (2)With reddit-2 and no schema and no caching : 0m28.597s
+          (3)With reddit-2 and with schema and no caching :0m23.103s
+          (4)With both schema and caching: 0m17.445s
+          
+Answer 2)
+Based on the above , the most time taken is in reading the file because with no work it takes about 15 seconds. And with and without caching have about 6 seconds difference
+          
+          
+Answer3)
+I used cache before sorting and after using .select because it gave me the least amount of time while running.(0m13.475s)

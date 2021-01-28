@@ -1,0 +1,4 @@
+Answer 1. Kalman Filter gives a better result .As discussed in class, Loess Smoothing focuses on getting a smooth curve more than getting the truth value.Kalman smoothening also allows us to use the values which we have an idea about or which we can predict.With LOESS smoothing, the curve is really smooth and its difficult to get the possible truth or real values. Kalman filter give us correct values(truth values).
+
+Answer 2.One of the main questions that we ask while doing Kalman predictions is that given the past value, what is going to be the current value or given the current value, what is going to be the next value. In the second part, we used Kalman filtering. And to predict the next latitude and logitude , we can take the speed of the object and its direction into account.(just like we did in class)
+

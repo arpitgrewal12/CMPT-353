@@ -1,0 +1,12 @@
+# Arpit Kaur
+# CMPT353
+# 301367803
+# aarpitka@sfu.ca
+
+Answer 1:
+The result of the calculation data['timestamp']*fit.slope + fit.intercept (y=mx+c, x is the predictor) is the value that is predicted for the ratings.The datatype is  float64 and the values are very near to to the ratings.The values calculated by linear regression are a linear fit as we can see from the plot .
+
+Answer 2:
+Since we get the predicted values, we can connect the data points to makee the best fit line. And we use created_at and timestamp as we want to find a relatiomn between rating and dates
+ 
+Conversion into float 64 helps in producing best fit line and hence we can plot data points.

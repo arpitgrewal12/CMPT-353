@@ -1,0 +1,193 @@
+Last login: Fri Nov 13 17:23:52 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) d142-058-062-136:~ arpitgrewal$ /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
+> 
+> 
+(base) d142-058-062-136:~ arpitgrewal$ 
+(base) d142-058-062-136:~ arpitgrewal$  brew help
+Example usage:
+  brew search [TEXT|/REGEX/]
+  brew info [FORMULA...]
+  brew install FORMULA...
+  brew update
+  brew upgrade [FORMULA...]
+  brew uninstall FORMULA...
+  brew list [FORMULA...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA
+
+Contributing:
+  brew create [URL [--no-fetch]]
+  brew edit [FORMULA...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+(base) d142-058-062-136:~ arpitgrewal$  brew cask install java
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+Updated 5 formulae.
+
+Error: Cask 'java' is unavailable: No Cask with this name exists. Did you mean one of these?
+eclipse-java               netbeans-java-ee           oracle-jdk-javadoc
+eclipse-javascript         netbeans-java-se
+(base) d142-058-062-136:~ arpitgrewal$ java -version
+openjdk version "1.8.0_275"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_275-b01)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.275-b01, mixed mode)
+(base) d142-058-062-136:~ arpitgrewal$ brew info apache-spark
+apache-spark: stable 3.0.1, HEAD
+Engine for large-scale data processing
+https://spark.apache.org/
+Not installed
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/apache-spark.rb
+License: Apache-2.0
+==> Dependencies
+Required: openjdk@11 ✘
+==> Options
+--HEAD
+	Install HEAD version
+==> Analytics
+install: 3,989 (30 days), 13,514 (90 days), 60,555 (365 days)
+install-on-request: 3,949 (30 days), 13,280 (90 days), 59,319 (365 days)
+build-error: 0 (30 days)
+(base) d142-058-062-136:~ arpitgrewal$  brew cask info java
+Error: Cask 'java' is unavailable: No Cask with this name exists.
+(base) d142-058-062-136:~ arpitgrewal$  brew cask info java
+Error: Cask 'java' is unavailable: No Cask with this name exists.
+(base) d142-058-062-136:~ arpitgrewal$ brew install scala
+==> Downloading https://homebrew.bintray.com/bottles/openjdk-15.0.1.catalina.bot
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/9376a1c6fdf8b0268b6cb
+######################################################################## 100.0%
+==> Downloading https://downloads.lightbend.com/scala/2.13.3/scala-2.13.3.tgz
+######################################################################## 100.0%
+==> Installing dependencies for scala: openjdk
+==> Installing scala dependency: openjdk
+==> Pouring openjdk-15.0.1.catalina.bottle.tar.gz
+==> Caveats
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /usr/local,
+because it shadows the macOS `java` wrapper.
+
+If you need to have openjdk first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> /Users/arpitkaur/.bash_profile
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openjdk/15.0.1: 614 files, 324.9MB
+==> Installing scala
+==> Caveats
+To use with IntelliJ, set the Scala home to:
+  /usr/local/opt/scala/idea
+==> Summary
+🍺  /usr/local/Cellar/scala/2.13.3: 41 files, 22.8MB, built in 4 seconds
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/heroku-node--12.16.2.tar.xz... (9.5MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/icu4c--67.1.catalina.bottle.tar.gz... (26.8MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/krb5--1.18.2.catalina.bottle.tar.gz... (1.3MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/openssl@1.1--1.1.1g.catalina.bottle.tar.gz... (5.3MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/pcre2--10.35.catalina.bottle.tar.gz... (2.0MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/python@3.8--3.8.5.catalina.bottle.tar.gz... (16.6MB)
+Removing: /Users/arpitkaur/Library/Caches/Homebrew/readline--8.0.4.catalina.bottle.tar.gz... (517.7KB)
+Removing: /Users/arpitkaur/Library/Logs/Homebrew/gdbm... (64B)
+Removing: /Users/arpitkaur/Library/Logs/Homebrew/sqlite... (64B)
+Removing: /Users/arpitkaur/Library/Logs/Homebrew/xz... (64B)
+Removing: /Users/arpitkaur/Library/Logs/Homebrew/python@3.8... (3 files, 172.3KB)
+Pruned 2 symbolic links and 3 directories from /usr/local
+==> Caveats
+==> openjdk
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
+openjdk is keg-only, which means it was not symlinked into /usr/local,
+because it shadows the macOS `java` wrapper.
+
+If you need to have openjdk first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk/bin:$PATH"' >> /Users/arpitkaur/.bash_profile
+
+For compilers to find openjdk you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+==> scala
+To use with IntelliJ, set the Scala home to:
+  /usr/local/opt/scala/idea
+(base) d142-058-062-136:~ arpitgrewal$ brew install apache-spark
+==> Downloading https://homebrew.bintray.com/bottles/openjdk%4011-11.0.9.catalin
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/c640eade77c3ad69fef4d
+######################################################################## 100.0%
+==> Downloading https://www.apache.org/dyn/closer.lua?path=spark/spark-3.0.1/spa
+==> Downloading from https://mirror.its.dal.ca/apache/spark/spark-3.0.1/spark-3.
+######################################################################## 100.0%
+==> Installing dependencies for apache-spark: openjdk@11
+==> Installing apache-spark dependency: openjdk@11
+==> Pouring openjdk@11-11.0.9.catalina.bottle.tar.gz
+==> Caveats
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+openjdk@11 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have openjdk@11 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> /Users/arpitkaur/.bash_profile
+
+For compilers to find openjdk@11 you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openjdk@11/11.0.9: 653 files, 297.2MB
+==> Installing apache-spark
+🍺  /usr/local/Cellar/apache-spark/3.0.1: 1,191 files, 237.4MB, built in 8 seconds
+==> Caveats
+==> openjdk@11
+For the system Java wrappers to find this JDK, symlink it with
+  sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+
+openjdk@11 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have openjdk@11 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> /Users/arpitkaur/.bash_profile
+
+For compilers to find openjdk@11 you may need to set:
+  export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
+
+(base) d142-058-062-136:~ arpitgrewal$ brew install python3
+Warning: python@3.8 3.8.5 already installed
+(base) d142-058-062-136:~ arpitgrewal$ pyspark
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 17:43:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 3.0.1
+      /_/
+
+Using Python version 3.8.3 (default, Jul  2 2020 11:26:31)
+SparkSession available as 'spark'.
+>>> 

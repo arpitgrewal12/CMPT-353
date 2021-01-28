@@ -1,0 +1,7 @@
+Answer 1) After trying all the transforms,  the square root transform got me the closest to satisfying assumptions of a T-test.
+
+Answer2) The null hypothesis is rejected because the p-value for the original t-test is less than 0.05  and the data is not a normal distribution. This is similar for all the other transformations as well
+
+Answer3) I think Central Limit theorem does the better job of getting an answer for the original question. It says that if numbers asre large enough, and we look at sample means, result should be normal.CLT gives us an acceptable normality and equal-variance p-values. I basically gives us the best p value.
+
+Answer4) The mean amount of tweets for weekdays is more than on weekends.

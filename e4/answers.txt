@@ -1,0 +1,4 @@
+Answer 1. We can see from the graph that the relation between temperature and population density is not so strong.Temperature depends on othe factors as well, like warm and cold weather conditions.It does not explain many other factors like employment which play a role in population density of a place.
+
+
+Answer 2.We should keep the file compressed because it is easier to read data from such file. Bigger files can lead to a lot of data and hence data discrepancies.Lesser space allows faster access. Uncomppressed files have a lot of unnecessary data.hence compressed files are more effective to work with.

@@ -1,0 +1,403 @@
+Last login: Fri Nov 13 18:00:52 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) d142-058-062-136:~ arpitgrewal$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+(base) d142-058-062-136:~ arpitgrewal$ export PYSPARK_PYTHON=python3
+(base) d142-058-062-136:~ arpitgrewal$ pyspark
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:09:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 3.0.1
+      /_/
+
+Using Python version 3.8.3 (default, Jul  2 2020 11:26:31)
+SparkSession available as 'spark'.
+>>> spark-submit sparkcode.py
+  File "<stdin>", line 1
+    spark-submit sparkcode.py
+                 ^
+SyntaxError: invalid syntax
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> 
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> ç
+Traceback (most recent call last):
+  File "/usr/local/Cellar/apache-spark/3.0.1/libexec/python/pyspark/context.py", line 279, in signal_handler
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+>>> ^V\q
+  File "<stdin>", line 1
+    \q
+    ^
+SyntaxError: invalid syntax
+>>> \qw
+  File "<stdin>", line 1
+    \qw
+      ^
+SyntaxError: unexpected character after line continuation character
+>>> \q
+  File "<stdin>", line 1
+    \q
+     ^
+SyntaxError: unexpected character after line continuation character
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+(base) d142-058-062-136:~ arpitgrewal$ spark-submit sparkcode.py
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:10:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+python3: can't open file '/Users/arpitkaur/sparkcode.py': [Errno 2] No such file or directory
+log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+(base) d142-058-062-136:~ arpitgrewal$ ls
+Applications			matlab_crash_dump.47397-1
+Desktop				matlab_crash_dump.47584-1
+Documents			matlab_crash_dump.47799-1
+Downloads			matlab_crash_dump.49226-1
+Library				matlab_crash_dump.52416-1
+License Smart switch.pdf	matlab_crash_dump.56908-1
+Movies				matlab_crash_dump.57866-1
+Music				matlab_crash_dump.583-1
+Pictures			matlab_crash_dump.61154-1
+Public				matlab_crash_dump.62777-1
+Samsung				matlab_crash_dump.62889-1
+Signal_plot.ipynb		matlab_crash_dump.63296-1
+Sites				matlab_crash_dump.65357-1
+THURSDAY 28 MARCH.txt		matlab_crash_dump.66184-1
+Untitled Folder			matlab_crash_dump.698-1
+Untitled.ipynb			matlab_crash_dump.69878-1
+VirtualBox VMs			matlab_crash_dump.70807-1
+github				matlab_crash_dump.726-1
+matlab_crash_dump.17429-1	matlab_crash_dump.79968-1
+matlab_crash_dump.17535-1	matlab_crash_dump.8443-1
+matlab_crash_dump.23300-1	matlab_crash_dump.90446-1
+matlab_crash_dump.29372-1	matlab_crash_dump.90741-1
+matlab_crash_dump.32172-1	matlab_crash_dump.97328-1
+matlab_crash_dump.35827-1	node-js-getting-started
+matlab_crash_dump.38728-1	nodeD
+matlab_crash_dump.39320-1	nodeDemo
+matlab_crash_dump.40863-1	node_modules
+matlab_crash_dump.40895-1	opt
+matlab_crash_dump.41166-1	package-lock.json
+matlab_crash_dump.44469-1	signal-plot-Copy1.ipynb
+matlab_crash_dump.45023-1	signal-plot.ipynb
+matlab_crash_dump.45494-1	signal_plot.py
+matlab_crash_dump.46152-1	tests
+(base) d142-058-062-136:~ arpitgrewal$ cd desktop
+(base) d142-058-062-136:desktop arpitgrewal$ ls
+5_Genius_Intentions_Workbook.pdf
+Archive
+Arpit Resume
+Arpit.pdf
+BOL
+Backup
+Books
+CELS Wbsite doc.pages
+Canada Background Check Consent Form for Amazon Candidates.pdf
+Certificate of illness.png
+Consent for Electronic Signature and Delivery.pdf
+FALL2020
+Gifts.pages
+Giraffe
+IMG_1985.JPG
+Important Documents 2020
+Important links.pages
+Kedarnath.docx
+Lab10
+Peer Education
+Personality tests
+Pictures
+RGIS PAPERWORK
+Research Grant
+Research IOT
+Resume
+SFU 
+Scanned docs
+Screen Shot 2020-10-05 at 12.21.43.png
+Screen Shot 2020-10-08 at 21.57.32.png
+Screen Shot 2020-10-24 at 17.11.07.png
+Screen Shot 2020-10-24 at 17.11.22.png
+Screen Shot 2020-10-24 at 17.13.00.png
+Screen Shot 2020-10-25 at 16.49.18.png
+Screen Shot 2020-11-06 at 13.26.40.png
+Terminal Saved Output cmpt353e9
+Terminal Saved Output e2
+Terminal commands
+To do lists
+Udemy
+Untitled.ipynb
+Virtual box
+Visa Docs
+WORK STUDY
+Workstudyfall2020
+Xcode projects
+asb9820-e03.rdp
+asb9840-c06.rdp
+cels aem imafges
+cmpt276A1-master-2.zip
+driver-full.pdf
+e9 
+important tabs
+pyspark
+spark-3.0.1-bin-hadoop2.7.tar
+tasksssss
+wordpress
+(base) d142-058-062-136:desktop arpitgrewal$ cd e9
+-bash: cd: e9: No such file or directory
+(base) d142-058-062-136:desktop arpitgrewal$ ls
+5_Genius_Intentions_Workbook.pdf
+Archive
+Arpit Resume
+Arpit.pdf
+BOL
+Backup
+Books
+CELS Wbsite doc.pages
+Canada Background Check Consent Form for Amazon Candidates.pdf
+Certificate of illness.png
+Consent for Electronic Signature and Delivery.pdf
+FALL2020
+Gifts.pages
+Giraffe
+IMG_1985.JPG
+Important Documents 2020
+Important links.pages
+Kedarnath.docx
+Lab10
+Peer Education
+Personality tests
+Pictures
+RGIS PAPERWORK
+Research Grant
+Research IOT
+Resume
+SFU 
+Scanned docs
+Screen Shot 2020-10-05 at 12.21.43.png
+Screen Shot 2020-10-08 at 21.57.32.png
+Screen Shot 2020-10-24 at 17.11.07.png
+Screen Shot 2020-10-24 at 17.11.22.png
+Screen Shot 2020-10-24 at 17.13.00.png
+Screen Shot 2020-10-25 at 16.49.18.png
+Screen Shot 2020-11-06 at 13.26.40.png
+Terminal Saved Output cmpt353e9
+Terminal Saved Output e2
+Terminal commands
+To do lists
+Udemy
+Untitled.ipynb
+Virtual box
+Visa Docs
+WORK STUDY
+Workstudyfall2020
+Xcode projects
+asb9820-e03.rdp
+asb9840-c06.rdp
+cels aem imafges
+cmpt276A1-master-2.zip
+driver-full.pdf
+e9 
+important tabs
+pyspark
+spark-3.0.1-bin-hadoop2.7.tar
+tasksssss
+wordpress
+(base) d142-058-062-136:desktop arpitgrewal$ cd e9 
+-bash: cd: e9: No such file or directory
+(base) d142-058-062-136:desktop arpitgrewal$ cd FALL2020
+(base) d142-058-062-136:FALL2020 arpitgrewal$ ls
+CMPT-353-Assignments-at-SFU-master
+CMPT353
+CMPT459
+Math303
+Object-Oriented Programming: Classes and Objects in Python | DigitalOcean.pdf
+decision tree - Jupyter Notebook.pdf
+e4master
+temperature_correlation.ipynb
+threefiftythree
+(base) d142-058-062-136:FALL2020 arpitgrewal$ cd CMPT353
+(base) d142-058-062-136:CMPT353 arpitgrewal$ ls
+CMPT353Exercises
+Cleaning Data.pdf
+Course Introduction.pdf
+Data Analysis Pipeline.pdf
+Data In Python.pdf
+Extract month and year to a new column in Pandas | Data Interview Questions.pdf
+Extract-Transform-Load.pdf
+Getting Data.pdf
+Inferential Stats.pdf
+Noise Filtering.pdf
+Statistical Tests.pdf
+Stats Review.pdf
+(base) d142-058-062-136:CMPT353 arpitgrewal$ cd CMPT353Exercises
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ ls
+CourSys - Exercise 1.pdf	e2
+CourSys - Exercise 2.pdf	e2final
+CourSys - Exercise 3.pdf	e3
+CourSys - Exercise 3.ps		e4
+CourSys - Exercise 4.pdf	e5
+CourSys - Exercise 5.pdf	e6
+CourSys - Exercise 8.pdf	e7
+Untitled.ipynb			e8
+e1				e9
+(base) d142-058-062-136:CMPT353Exercises arpitgrewal$ cd e9
+(base) d142-058-062-136:e9 arpitgrewal$ ls
+first_spark.py		weather_etl_hint.py
+weather-1		xyz-1
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:12:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:12:31 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:12:31 INFO ResourceUtils: ==============================================================
+20/11/13 18:12:31 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:12:31 INFO ResourceUtils: ==============================================================
+20/11/13 18:12:31 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:12:31 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:12:31 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:12:31 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:12:31 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:12:31 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:12:31 INFO Utils: Successfully started service 'sparkDriver' on port 53154.
+20/11/13 18:12:31 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:12:31 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:12:31 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:12:31 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:12:31 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:12:31 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-bfe097a2-6537-4f92-b46f-0b399bf71b53
+20/11/13 18:12:31 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:12:31 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:12:32 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:12:32 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:12:32 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:12:32 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53155.
+20/11/13 18:12:32 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53155
+20/11/13 18:12:32 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:12:32 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53155, None)
+20/11/13 18:12:32 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53155 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53155, None)
+20/11/13 18:12:32 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53155, None)
+20/11/13 18:12:32 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53155, None)
+20/11/13 18:12:32 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:12:32 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+Traceback (most recent call last):
+  File "/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/first_spark.py", line 45, in <module>
+    in_directory = sys.argv[1]
+IndexError: list index out of range
+(base) d142-058-062-136:e9 arpitgrewal$ spark-submit first_spark.py xyz-1 output
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/Cellar/apache-spark/3.0.1/libexec/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/11/13 18:12:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+20/11/13 18:12:56 INFO SparkContext: Running Spark version 3.0.1
+20/11/13 18:12:56 INFO ResourceUtils: ==============================================================
+20/11/13 18:12:56 INFO ResourceUtils: Resources for spark.driver:
+
+20/11/13 18:12:56 INFO ResourceUtils: ==============================================================
+20/11/13 18:12:56 INFO SparkContext: Submitted application: first Spark app
+20/11/13 18:12:56 INFO SecurityManager: Changing view acls to: arpitgrewal
+20/11/13 18:12:56 INFO SecurityManager: Changing modify acls to: arpitgrewal
+20/11/13 18:12:56 INFO SecurityManager: Changing view acls groups to: 
+20/11/13 18:12:56 INFO SecurityManager: Changing modify acls groups to: 
+20/11/13 18:12:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(arpitgrewal); groups with view permissions: Set(); users  with modify permissions: Set(arpitgrewal); groups with modify permissions: Set()
+20/11/13 18:12:56 INFO Utils: Successfully started service 'sparkDriver' on port 53176.
+20/11/13 18:12:56 INFO SparkEnv: Registering MapOutputTracker
+20/11/13 18:12:56 INFO SparkEnv: Registering BlockManagerMaster
+20/11/13 18:12:56 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/11/13 18:12:56 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/11/13 18:12:56 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/11/13 18:12:56 INFO DiskBlockManager: Created local directory at /private/var/folders/14/8wdns3bd1ljfwpfvycrphpsw0000gp/T/blockmgr-342a0855-c411-4a6f-8603-bbe8fa748b39
+20/11/13 18:12:56 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+20/11/13 18:12:56 INFO SparkEnv: Registering OutputCommitCoordinator
+20/11/13 18:12:56 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/11/13 18:12:56 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://d142-058-062-136.wireless.sfu.ca:4040
+20/11/13 18:12:56 INFO Executor: Starting executor ID driver on host d142-058-062-136.wireless.sfu.ca
+20/11/13 18:12:56 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53177.
+20/11/13 18:12:56 INFO NettyBlockTransferService: Server created on d142-058-062-136.wireless.sfu.ca:53177
+20/11/13 18:12:56 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/11/13 18:12:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53177, None)
+20/11/13 18:12:56 INFO BlockManagerMasterEndpoint: Registering block manager d142-058-062-136.wireless.sfu.ca:53177 with 434.4 MiB RAM, BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53177, None)
+20/11/13 18:12:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53177, None)
+20/11/13 18:12:56 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, d142-058-062-136.wireless.sfu.ca, 53177, None)
+20/11/13 18:12:57 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse').
+20/11/13 18:12:57 INFO SharedState: Warehouse path is 'file:/Users/arpitkaur/Desktop/FALL2020/CMPT353/CMPT353Exercises/e9/spark-warehouse'.
+(base) d142-058-062-136:e9 arpitgrewal$ cat output/part-* | less
+
+0,48159.08005133644,1000
+1,49694.89994236827,1000
+2,48607.889968663454,1000
+3,49632.430048618466,1000
+4,51432.40000439435,1000
+5,50240.07992722839,1000
+6,48782.98989110626,1000
+7,51855.37000151351,1000
+8,50285.73004942015,1000
+9,49943.76006755233,1000
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)

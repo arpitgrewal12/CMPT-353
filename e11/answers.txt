@@ -1,0 +1,5 @@
+Answer 1)A used cache with dataframe was used more than once. If I did not use cache, results would take much longer.
+
+Answer 2) With broadcast: 1min 2.424secs
+          Without broadcast: 1 min 16.812secs
+          It can be seen that with broadcast, it is faster.
